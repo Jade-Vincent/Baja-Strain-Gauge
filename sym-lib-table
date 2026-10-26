@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Frame Strain Gauge") (type "KiCad") (uri "${KIPRJMOD}/Frame Strain Gauge Lib/Frame Strain Gauge.kicad_sym") (options "") (descr ""))
+)
