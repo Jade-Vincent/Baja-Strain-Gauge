@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -203,7 +209,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.25
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +240,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -724,7 +739,7 @@
         "uuid": "8ba5ac88-24f3-4f4a-b590-8784412bc863"
       }
     ],
-    "used_designators": "U1-9,J1-9,R1-28,L1,D1-6,#PWR1-108,C1-45,FL1",
+    "used_designators": "U1-10,J1-9,R1-28,L1,D1-6,#PWR1-112,C1-49,FL1",
     "variants": []
   },
   "sheets": [
