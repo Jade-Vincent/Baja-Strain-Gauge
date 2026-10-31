@@ -572,6 +572,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -8508,6 +8631,18 @@
 		(uuid "ae678967-3542-458f-b5ed-dfb534979b16")
 	)
 	(rectangle
+		(start 13.97 243.84)
+		(end 130.81 300.99)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c4097616-63c0-45d8-b5dc-7b7b8f1297d5")
+	)
+	(rectangle
 		(start 269.24 13.97)
 		(end 468.63 106.68)
 		(stroke
@@ -8564,6 +8699,17 @@
 			(justify left)
 		)
 		(uuid "29a0b1af-042b-467e-88b5-d9e6f708577c")
+	)
+	(text "Test Points"
+		(exclude_from_sim no)
+		(at 13.97 302.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "444e8b01-3002-4a60-bc8a-f742177b2211")
 	)
 	(text "TCAN332GDR CAN Transceiver\n"
 		(exclude_from_sim no)
@@ -11004,6 +11150,16 @@
 		)
 		(uuid "0e47ec25-46a2-4149-8c50-2f0f1be00784")
 	)
+	(label "SPI 2 MISO"
+		(at 63.5 261.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e78553d-97ea-4453-b81e-727e11c53c34")
+	)
 	(label "CS2 LSM6DSOXTR"
 		(at 80.01 83.82 180)
 		(effects
@@ -11034,6 +11190,16 @@
 		)
 		(uuid "19ab18ed-2e65-495e-9351-0723e6407119")
 	)
+	(label "DRDY ADS124S08IPBSR"
+		(at 99.06 279.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1ac4ac49-cf30-4697-80db-91fe79f8c366")
+	)
 	(label "SPI 2 MOSI"
 		(at 80.01 109.22 180)
 		(effects
@@ -11053,6 +11219,16 @@
 			(justify left bottom)
 		)
 		(uuid "24b0e884-bd23-4446-993c-4d5398205794")
+	)
+	(label "Reset ADS124S08IPBSR"
+		(at 50.8 289.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "264bd1f3-b71e-45cb-a083-8c1937684ba5")
 	)
 	(label "CS1 IIS3DWBTR"
 		(at 290.83 148.59 0)
@@ -11084,6 +11260,16 @@
 		)
 		(uuid "306a9c85-a68b-4892-9d44-4b30878bbc7d")
 	)
+	(label "SPI 1 MISO"
+		(at 35.56 261.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "348867d5-0955-42f1-a7be-b11860914de8")
+	)
 	(label "Torsion-"
 		(at 543.56 35.56 0)
 		(effects
@@ -11103,6 +11289,16 @@
 			(justify right bottom)
 		)
 		(uuid "3fda8ca9-4fa3-421b-9775-4cad1086eb8f")
+	)
+	(label "SPI 2 SCK"
+		(at 63.5 255.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "40d4ff48-f48b-4d48-9bdd-92eddcb20b04")
 	)
 	(label "SPI 2 MISO"
 		(at 419.1 38.1 0)
@@ -11183,6 +11379,16 @@
 			(justify right bottom)
 		)
 		(uuid "56ab8ec7-61bc-45bf-8b4f-e480dc5958b5")
+	)
+	(label "CS3 ADS124S08IPBSR"
+		(at 101.6 267.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "57b367e7-1be8-4c07-8c1b-086b11275a4e")
 	)
 	(label "SPI 2 MISO"
 		(at 80.01 106.68 180)
@@ -11304,6 +11510,16 @@
 		)
 		(uuid "7c43bb30-98e1-4c4c-b780-3ba590c39d68")
 	)
+	(label "SPI 1 SCK"
+		(at 35.56 255.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d516045-01d6-4553-b9ab-0b011019f2ab")
+	)
 	(label "CS2 LSM6DSOXTR"
 		(at 383.54 146.05 0)
 		(effects
@@ -11334,6 +11550,16 @@
 		)
 		(uuid "8b1f2d6e-3a69-488d-b928-560f9c2e5cc7")
 	)
+	(label "CS2 LSM6DSOXTR"
+		(at 101.6 261.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8d34344d-4b00-418b-bd53-8c6e54e80fae")
+	)
 	(label "DRDY ADS124S08IPBSR"
 		(at 80.01 38.1 180)
 		(effects
@@ -11353,6 +11579,36 @@
 			(justify left bottom)
 		)
 		(uuid "9489a629-0a27-41a6-88ef-272f0c46b47a")
+	)
+	(label "SPI 1 MOSI"
+		(at 35.56 267.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ad25caa-d352-4939-a1c1-0d25e2133266")
+	)
+	(label "INT IIS3DWBTR"
+		(at 50.8 276.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a689f7f9-1564-4603-b411-0f6551670814")
+	)
+	(label "SPI 2 MOSI"
+		(at 63.5 267.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a740cd35-ceaf-4d95-aa6e-009c8d928223")
 	)
 	(label "CANH"
 		(at 95.25 220.98 0)
@@ -11443,6 +11699,16 @@
 			(justify right bottom)
 		)
 		(uuid "ca85126d-880b-4e71-b6f6-3a0189b81492")
+	)
+	(label "INT LSM6DSOXTR"
+		(at 50.8 283.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d5802f54-1359-4529-97c3-8e0047c25293")
 	)
 	(label "Resonator Input"
 		(at 146.05 78.74 0)
@@ -11554,6 +11820,16 @@
 		)
 		(uuid "e72d51cf-0873-44bd-a07b-999af1ab2c52")
 	)
+	(label "CS1 IIS3DWBTR"
+		(at 101.6 255.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8389d81-cc92-46ad-833f-0f0850dde942")
+	)
 	(label "SWDIO"
 		(at 50.8 215.9 0)
 		(effects
@@ -11583,6 +11859,16 @@
 			(justify left bottom)
 		)
 		(uuid "ee582a40-336c-4ad9-9fe6-daf59e5360f1")
+	)
+	(label "Start{slash}Sync ADS124S08IPBSR"
+		(at 99.06 285.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4e6b20f-01c7-49b7-851c-fceb3b817da2")
 	)
 	(label "CAN TXD"
 		(at 80.01 60.96 180)
@@ -11890,6 +12176,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 50.8 289.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03169f89-126e-4509-95bd-b3d22d7060e6")
+		(property "Reference" "TP12"
+			(at 55.88 288.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 55.88 290.8299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 50.8 294.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 294.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 50.8 289.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2926c157-7296-4663-9c17-605c1e186515")
+		)
+		(instances
+			(project "Frame Strain Gauge"
+				(path "/8ba5ac88-24f3-4f4a-b590-8784412bc863"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 255.27 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "042b0973-393a-48f2-8273-32593df259cd")
+		(property "Reference" "TP7"
+			(at 106.68 253.9999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 106.68 256.5399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 101.6 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a4fcf28-a79d-49a3-a7ef-5608a19f59ba")
+		)
+		(instances
+			(project "Frame Strain Gauge"
+				(path "/8ba5ac88-24f3-4f4a-b590-8784412bc863"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 281.94 30.48 0)
 		(unit 1)
@@ -11963,6 +12407,164 @@
 			(project "Frame Strain Gauge"
 				(path "/8ba5ac88-24f3-4f4a-b590-8784412bc863"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 63.5 255.27 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04f6e421-1e97-4443-8a35-7f50d062134e")
+		(property "Reference" "TP4"
+			(at 68.58 253.9999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 68.58 256.5399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 63.5 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 63.5 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a959c85-a017-48ed-b863-cc3cd1429a7f")
+		)
+		(instances
+			(project "Frame Strain Gauge"
+				(path "/8ba5ac88-24f3-4f4a-b590-8784412bc863"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 99.06 285.75 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06fa166f-8b88-408c-bb7e-1a83181e61a1")
+		(property "Reference" "TP14"
+			(at 104.14 284.4799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 287.0199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 99.06 290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 99.06 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4b3bed4-8cd8-428e-9c20-6e74b49254e5")
+		)
+		(instances
+			(project "Frame Strain Gauge"
+				(path "/8ba5ac88-24f3-4f4a-b590-8784412bc863"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -12522,6 +13124,85 @@
 			(project "Frame Strain Gauge"
 				(path "/8ba5ac88-24f3-4f4a-b590-8784412bc863"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 261.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16d6548a-fd1d-42c3-bb3d-f385433275d3")
+		(property "Reference" "TP8"
+			(at 106.68 260.3499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 106.68 262.8899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 101.6 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7ce43c9-4345-4012-96e6-c19394c3f30b")
+		)
+		(instances
+			(project "Frame Strain Gauge"
+				(path "/8ba5ac88-24f3-4f4a-b590-8784412bc863"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -13315,6 +13996,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 99.06 279.4 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31833f2b-19f0-4b8d-8c64-c31e2aa22fda")
+		(property "Reference" "TP13"
+			(at 104.14 278.1299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 280.6699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 99.06 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 99.06 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd0dcd57-e4f2-46ae-818b-be173610fb52")
+		)
+		(instances
+			(project "Frame Strain Gauge"
+				(path "/8ba5ac88-24f3-4f4a-b590-8784412bc863"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 245.11 109.22 0)
 		(unit 1)
@@ -13720,6 +14480,85 @@
 			(project "Frame Strain Gauge"
 				(path "/8ba5ac88-24f3-4f4a-b590-8784412bc863"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 35.56 255.27 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44ef1daa-c59e-435b-87fe-43d80b68c631")
+		(property "Reference" "TP1"
+			(at 40.64 253.9999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 40.64 256.5399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 35.56 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 35.56 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e054ea0-718f-42d5-a04d-74bc4c489e45")
+		)
+		(instances
+			(project "Frame Strain Gauge"
+				(path "/8ba5ac88-24f3-4f4a-b590-8784412bc863"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -16209,6 +17048,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 267.97 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b50a8d0-6b42-4f97-950f-b69d3fb2c84d")
+		(property "Reference" "TP9"
+			(at 106.68 266.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 106.68 269.2399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 101.6 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6c16947-1f79-49d3-b304-1290b29e2567")
+		)
+		(instances
+			(project "Frame Strain Gauge"
+				(path "/8ba5ac88-24f3-4f4a-b590-8784412bc863"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 172.72 137.16 0)
 		(unit 1)
@@ -16985,6 +17903,85 @@
 			(project "Frame Strain Gauge"
 				(path "/8ba5ac88-24f3-4f4a-b590-8784412bc863"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 50.8 283.21 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7959bdd5-c7d1-41a3-bd73-655089156828")
+		(property "Reference" "TP11"
+			(at 55.88 281.9399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 55.88 284.4799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 50.8 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 50.8 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9d59fa9-5abb-4b50-a1d1-9ca40e5895ab")
+		)
+		(instances
+			(project "Frame Strain Gauge"
+				(path "/8ba5ac88-24f3-4f4a-b590-8784412bc863"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -17981,6 +18978,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 35.56 261.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88dba9cd-62b0-4a4c-876c-b7211891fe9f")
+		(property "Reference" "TP2"
+			(at 40.64 260.3499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 40.64 262.8899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 35.56 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 35.56 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bda3104e-d59a-4875-8ad3-e6f0e42f37e8")
+		)
+		(instances
+			(project "Frame Strain Gauge"
+				(path "/8ba5ac88-24f3-4f4a-b590-8784412bc863"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 50.8 210.82 0)
 		(unit 1)
@@ -18759,6 +19835,164 @@
 			(project "Frame Strain Gauge"
 				(path "/8ba5ac88-24f3-4f4a-b590-8784412bc863"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 50.8 276.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9572a868-455f-4f4e-92d3-8a2fbc3b0f2d")
+		(property "Reference" "TP10"
+			(at 55.88 275.5899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 55.88 278.1299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 50.8 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 50.8 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f4f137b-a514-498e-9c91-88c4b0739c15")
+		)
+		(instances
+			(project "Frame Strain Gauge"
+				(path "/8ba5ac88-24f3-4f4a-b590-8784412bc863"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 63.5 261.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "957f44f1-d7e8-4e0f-ba9d-3d63c4bcd22a")
+		(property "Reference" "TP5"
+			(at 68.58 260.3499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 68.58 262.8899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 63.5 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 63.5 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7c51253-3c67-4afa-b8e9-22fe9d48603c")
+		)
+		(instances
+			(project "Frame Strain Gauge"
+				(path "/8ba5ac88-24f3-4f4a-b590-8784412bc863"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -23397,6 +24631,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 35.56 267.97 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e383de8d-b7ce-402a-aa30-ec1707354497")
+		(property "Reference" "TP3"
+			(at 40.64 266.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 40.64 269.2399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 35.56 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 35.56 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2733888-cb8f-4272-909e-97fe894bd627")
+		)
+		(instances
+			(project "Frame Strain Gauge"
+				(path "/8ba5ac88-24f3-4f4a-b590-8784412bc863"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 210.82 161.29 0)
 		(unit 1)
@@ -24944,6 +26257,85 @@
 			(project "Frame Strain Gauge"
 				(path "/8ba5ac88-24f3-4f4a-b590-8784412bc863"
 					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 63.5 267.97 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f483b549-c5bb-4cd7-a9cd-2591a3e4002e")
+		(property "Reference" "TP6"
+			(at 68.58 266.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 68.58 269.2399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 63.5 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 63.5 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8851f6ce-b9c4-4f9d-83f0-f8ebe769fbd7")
+		)
+		(instances
+			(project "Frame Strain Gauge"
+				(path "/8ba5ac88-24f3-4f4a-b590-8784412bc863"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
